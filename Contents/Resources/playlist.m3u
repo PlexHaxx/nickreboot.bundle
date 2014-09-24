@@ -1,0 +1,3 @@
+#EXTM3U
+#EXTINF:-1 group-title="nick reboot",nickreboot
+http://live.nickreboot.net/live/mp4:nickreboot1east/playlist.m3u8
