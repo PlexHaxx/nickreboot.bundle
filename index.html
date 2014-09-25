@@ -22,15 +22,16 @@ margin: 0px;
 font: 14px/1.5 'OpenSansRegular', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 color: #f0e7d5;
 font-weight: normal;
-background: #181818;
+background-image: linear-gradient(rgb(10, 10, 10), rgb(14, 14, 14));
 background-attachment: fixed !important;
-background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #181818), color-stop(100%, #070707));
-background: -webkit-linear-gradient(#181818, #070707);
-background: -moz-linear-gradient(#181818, #070707);
-background: -o-linear-gradient(#181818, #070707);
-background: -ms-linear-gradient(#181818, #070707);
-background: linear-gradient(#181818, #070707);">
-      <div id="header">
+background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, rgb(10, 10, 10)), color-stop(100%, rgb(14, 14, 14)));
+background: -webkit-linear-gradient(rgb(10, 10, 10), rgb(14, 14, 14));
+background: -moz-linear-gradient(rgb(10, 10, 10), rgb(14, 14, 14));
+background: -o-linear-gradient(rgb(10, 10, 10), rgb(14, 14, 14));
+background: -ms-linear-gradient(rgb(10, 10, 10), rgb(14, 14, 14));
+background: linear-gradient(rgb(10, 10, 10), rgb(14, 14, 14));">
+      <div id="header" style="background: #252525;
+border-bottom: 4px solid #000000;">
         <nav>
           <li class="fork"><a href="https://github.com/nickreboot/nickreboot.bundle" style="color: white;
 border: 1px solid #FF9900;
@@ -116,7 +117,9 @@ text-align: center;">TAR</a></li>
       <section>
         <div style="padding: 30px;margin-bottom: 10px;
 margin-top: -35px;text-align: center;
-height: 80px;">
+height: 60px;
+border-bottom: 1px solid #333;
+margin-bottom: 25px;">
           <img src="http://nickreboot.com/images/logo3.png" alt="nick reboot" style="float:left;"> &nbsp;  &nbsp; &nbsp; 
           <img src="http://ww1.prweb.com/prfiles/2014/03/17/11676175/gI_85163_plex-logo-dark-3.png" alt="Plex" style="float: right;height: 58px;margin-top: 7px;">
         </div>
@@ -124,7 +127,7 @@ height: 80px;">
 <h1>
 <a name="about" class="anchor" href="#about"><span class="octicon octicon-link"></span></a>About</h1>
 
-<p>This plugin/channel creates a quick way to access the stream at <a href="http://nickreboot.com/">nickreboot.com</a> natively in Plex.</p>
+<p>This plugin/channel creates a quick way to access the stream at <a href="http://nickreboot.com/" style="color:#FF9900;">nickreboot.com</a> natively in Plex.</p>
 
 <h1>
 <a name="usage" class="anchor" href="#usage"><span class="octicon octicon-link"></span></a>Usage</h1>
@@ -135,10 +138,10 @@ Clients Tested included Plex Media Center, RasPlex, Roku, and iOS</p>
 <h1>
 <a name="install" class="anchor" href="#install"><span class="octicon octicon-link"></span></a>Install</h1>
 
-<p>To install, rename the encasing top level folder "<strong>nickreboot.bundle</strong>", then place it it one of the following folders, then <strong>restart Plex Media Server</strong>.</p>
+<p>To install, rename the encasing top level folder "<strong>nickreboot.bundle</strong>", place it it one of the following folders depending on your OS, then <strong>restart Plex Media Server</strong>.</p>
 
 <ul>
-<li><p>Windows vista/7/8/8.1 or later:
+<li><p>Windows Vista/7/8/8.1 or later:
 Copy nickreboot.bundle to C:\Users*your username*\AppData\Local\Plex Media Server\Plug-ins</p></li>
 <li><p>Windows XP:
 Copy nickreboot.bundle to C:\Documents and Settings*your username*\Local Settings\Application Data\Plex Media Server\Plug-ins</p></li>
